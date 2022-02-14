@@ -1,0 +1,150 @@
+body{
+    background-image: url(./img/pexels-photo-3648850.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    position: relative;
+
+    
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    height: 25px;
+    margin-top: 0px;
+    border: solid black 1px;
+    margin: auto;
+    padding: 6px 0px 0px 0px;
+    background-color:black;
+}
+
+li{
+    font-size: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    display: inline;
+    padding:7.5px 15px 7.5px 15px;
+}
+li:hover{
+    color: white;
+    background-color: rgb(66, 66, 66);
+}
+.herotext{
+    margin: 18% 0px 0px 0px;
+    height: 300px;
+    width: 55%;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px 0px 0px 0px;
+    float: left;
+}
+.h1{
+    text-align: center;
+}
+.heroimg{
+    margin:12% 0px 0px 0px;
+    background-image: url(./img/img.png);
+    background-size: 600px ;
+    background-repeat: no-repeat;
+    
+    float: left;
+    height: 400px;
+    width: 45%;
+    zoom: 50px;
+}
+.container{
+    height: 200px;
+    margin-top: 700px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.about{
+    grid-column: 1/4;
+}
+.my{
+    grid-column: 4/7;
+}
+.contact{
+    grid-column: 7/10;
+}
+.deal{
+    grid-column: 10/-1;
+}
+.box1{
+    color: white;
+    background-color:rgb(245, 180, 59);
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box2{
+    color: white;
+    background-color:rgba(243,128,32,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box3{
+    color: white;
+    background-color:rgba(48,122,213,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box4{
+    color: white;
+    background-color:rgba(16,196,92,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box1:hover{
+    color: white;
+    background-color:rgb(245, 180, 59);
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+    zoom:105%;
+}
+.box2:hover{
+    color: white;
+    background-color:rgba(243,128,32,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+    zoom:105%;
+}
+.box3:hover{
+    color: white;
+    background-color:rgba(48,122,213,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+    zoom:105%;
+}
+.box4:hover{
+    color: white;
+    background-color:rgba(16,196,92,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+    zoom:105%;
+}
+
+
+
+
+
